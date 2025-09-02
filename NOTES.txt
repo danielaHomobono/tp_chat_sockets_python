@@ -1,0 +1,6 @@
+
+NOTAS Y RECOMENDACIONES
+- No expongas este servidor en producción tal cual (no hay autenticación ni cifrado).
+- Para pruebas locales, usar localhost (127.0.0.1).
+- Si querés hacer pruebas con telnet: `telnet 127.0.0.1 5000` y escribir líneas, pero telnet puede no enviar \n hasta Enter.
+- Si necesitás reiniciar rápidamente el servidor sin "Address already in use", el socket set SO_REUSEADDR se habilita en el código.
