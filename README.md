@@ -6,7 +6,7 @@ Contenido:
 - servidor.py  : servidor TCP concurrente (hilos) que guarda mensajes en SQLite y responde acuses.
 - cliente.py   : cliente interactivo que envía múltiples mensajes hasta escribir 'éxito' (o variantes).
 - README.md    : este archivo.
-- NOTES.txt    : recomendaciones de pruebas y seguridad.
+
 
 Instrucciones rápidas:
 1) Abrí una terminal y ejecutá el servidor:
